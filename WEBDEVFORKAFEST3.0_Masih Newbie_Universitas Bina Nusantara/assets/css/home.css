@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+@font-face {
+    font-family: Goldman;
+    src: url(/assets/media/font/Goldman/Goldman-Regular.ttf);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Section Pertama */
+/* navbar */
+#First-section main,header{
+    backdrop-filter: brightness(0.5);
+}
+#First-section{
+    background-image: url('/assets/media/image/programming-background-with-person-working-with-codes-computer\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+body,html{
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: transparent;
+}
+.hamburger{
+    display: none;
+}
+.navbar{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+}
+
+.bar-extra{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+/* main */
+
+.first-main{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Text h4{
+    font-size: 3.5vw;
+    text-align: center;
+}
+.Text h1{
+    font-size: 6.5vw;
+    font-family: Goldman;
+}
+.button{
+    padding: 30px 50px;
+    background-color: #3F428D;
+    font-size: 36px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.button a:active{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 2s ease;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    -ms-transition: 2s ease;
+    -o-transition: 2s ease;
+}
+
+/* Second Section */
+
+#Second-section main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 50px;
+    padding-bottom: 200px;
+}
+
+.second-image{
+    margin-left: 80px;
+}
+.second-image img{
+
+    height: 600px;
+    object-fit: contain;
+
+}
+
+.second-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px 0 0;
+    height: 100%;
+}
+.second-description{
+    width: 410px;
+    font-size: 20px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    word-spacing: 5px;
+    text-align: justify;
+    text-indent: 35px;
+}
+.second-button{
+    font-size: 20px;
+    background-color: #3F428D;
+    color: #ffffff;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.second-button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ball{
+    position: absolute;
+    background: linear-gradient(to bottom, #3F428D, white);
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+.ball:nth-child(1){
+    width: 62px;
+    height: 62px;
+    margin-left: -50px;
+}
+.ball:nth-child(2){
+    width: 46px;
+    height: 46px;
+    margin-top: 380px;
+    z-index: 999;
+    
+}
+.ball:nth-child(3){
+    width: 62px;
+    height: 62px;
+    margin-right: 750px;
+    margin-top: 700px;
+}
+.ball:nth-child(4){
+    width: 83px;
+    height: 83px;
+    margin-top: 800px;
+    margin-left: 650px;
+}
+.ball:nth-child(5){
+    width: 83px;
+    height: 83px;
+    margin-left: 1350px;
+    margin-bottom: 235px;
+}
+
+/* third-section */
+
+#third-section{
+    height: 100vh;
+    background-image: url('/assets/media/image/Group\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 600px;
+}
+
+.third-main{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    width: 600px;
+    height: 400px;
+}
+
+.circle{
+    width: 190px;
+    height: 190px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: grid;
+    border-radius: 100px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3F428D;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    position: absolute;
+    color: white;
+    
+}
+.circle a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#program{
+    margin-right: 900px;
+    margin-bottom: 650px;
+}
+
+#vector3{
+    width: 126px;
+    height: 250px;
+    position: absolute;
+    margin-bottom: 300px;
+    margin-right: 500px;
+}
+#career{
+    margin-left: 950px;
+    margin-bottom: 580px;
+    order: 2;
+}
+#vector2{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    margin-bottom:420px;
+    margin-left: 550px;
+    rotate: 160deg;
+}
+
+#mahasiswa{
+    margin-right:800px;
+    margin-top:750px ;
+}
+
+#vector4{
+    margin-top: 450px;
+    margin-right: 550px;
+    position: absolute;
+}
+
+#proses{
+    margin-left: 1000px;
+    margin-top: 380px;
+}
+
+#vector5{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 350px;
+}
+
+/* footer */
+#Fourth-section{
+    width: 100%;
+    height: 100%;
+    background-color: #3F428D;
+}
+
+.footer-main{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+.footer{
+    color: #ffffff;
+}
+.footer h1{
+    font-family: Goldman;
+    font-size: 4vw;
+}
+.footer h5{
+    
+    font-weight: normal;
+    font-size: 1.8vw;
+}
+.footer h4{
+    
+    font-weight: normal;
+    font-size: 1.8vw;
+}
+#imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+@media (width<=1440px){
+    .ball{
+        display: none;
+    }
+    .third-main{
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+    }
+    #Second-section main{
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .button h4 a{
+        font-size: max(6vw,  1rem);
+    }
+}
+
+@media (width<=988px){
+    html,body{
+        overflow-x: hidden;
+    }
+    /* navbar */
+    .bar-extra{
+        display: none;
+    }
+    body section{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger img{
+        width: 50px;
+        object-fit: contain;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        top: 90px;
+        background-color: hsl(0, 0%, 0%,0.8);
+        right: 0;
+    }
+    .Text h1{
+        font-size: 7vw;
+    }
+    .Text h4{
+        font-size: 3vw;
+    }
+    #program,#career,#mahasiswa,#proses, #vector2, #vector3, #vector4, #vector5{
+        position: static;
+        margin: 0;
+        padding: 0;
+    }
+    #vector2, #vector3, #vector4, #vector5{
+        display: none;
+    }
+    .first-main{
+        padding: 50px;
+    }
+    
+    .second-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .second-image img{
+        height: 300px;
+        width: 80vw;
+        object-fit: contain;
+    }
+    .second-text{
+        padding: 0 20px;
+    }
+    .second-description p{
+        text-indent: 30px;
+        font-size: 15px;
+    }
+    #third-section{
+        padding: 0;
+    }
+    #third-section{
+        height: 150vh;
+    }
+    .third-main{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+}
+    .circle{
+        width: 70%;
+        padding: 20px;
+    }
+    .circle h3{
+        font-size: 5vw;
+    }
+    .img{
+        order: -1;
+    }
+    .img img{
+        width: 300px;
+        object-fit: contain;
+        height: 400px;
+    }
+
+    /* footer */
+    .footer h1{
+        font-size: 40px;
+    }
+    .footer h5{
+        font-size: 20px;
+    }
+    .footer h4{
+        font-size: 20px;
+    }
+
+}
+
+@media (width<=650px){
+    body section{
+        width: 100%;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 90px;
+        background-color: hsl(0, 0%, 0%,0.8);
+        right: 0;
+    }
+    .Text h4{
+        font-size: 24px;
+    }
+    .Text h1{
+        font-size: 8vw;
+    }
+    .second-image img{
+        width: 100vw;
+        object-fit: contain;
+    }
+    .circle h3{
+        font-size: 7vw;
+    }
+    .button h4{
+        text-align: center;
+    }
+    .button h4 a{
+        font-size: 20px;
+    }
+}
+@media (width<=450px){
+    body section{
+        width: 100%;
+    }
+    #first-section{
+        width: 100vw;
+    }
+    
+    .Text h4{
+        font-size: 14px;
+    }
+    .Text h1{
+        font-size: 28px;
+    }
+    .circle h3{
+        font-size: 25px;
+    }
+    .first-main img{
+        width: 200px;
+        object-fit: contain;
+    }
+    .button{
+        padding: 20px;
+    }
+    .button h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-image img{
+        width: 300px;
+        object-fit: contain;
+    }
+    .second-description{
+        padding: 40px;
+        text-align: justify;
+    }
+    .second-button{
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+}
+    .second-button h4{
+        font-size: 30px;
+    }
+
+    .third-main .img img{
+        margin-left: 50px;
+    }
+    .footer h1{
+        font-size: 30px;
+    }
+    .footer h5{
+        font-size: 12px;
+    }
+    .footer h4{
+        font-size: 12px;
+    }
+}

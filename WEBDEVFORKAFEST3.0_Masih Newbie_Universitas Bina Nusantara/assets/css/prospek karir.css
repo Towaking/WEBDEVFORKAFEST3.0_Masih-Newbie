@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@font-face {
+  font-family: Goldman;
+  src: url(/assets/media/font/Goldman/Goldman-Regular.ttf);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+/* Section Pertama */
+/* navbar */
+#First-section header,
+main {
+  backdrop-filter: brightness(0.5);
+}
+#First-section {
+  background-image: url("/assets/media/image/meeting-with-colleague\ 1.png");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+header {
+  width: 100%;
+  z-index: 999;
+  background: transparent;
+  position: fixed;
+}
+
+.navbar {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+}
+
+.bar-extra {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+/* main */
+.first-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 530px;
+}
+.first-main h1 {
+  font-size: 100px;
+  font-family: Goldman;
+}
+
+/* second-section */
+
+.second-main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 150px;
+}
+.second-text p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 35px;
+  line-height: 46px;
+}
+
+/* third-section */
+
+.third-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 150px 150px 150px;
+  gap: 70px;
+}
+
+.third-title {
+  width: 100%;
+  justify-content: start;
+}
+.third-title h1 {
+  font-family: Goldman;
+  font-size: 6vw;
+}
+.third-desc p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 35px;
+  line-height: 46px;
+}
+
+.third-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+
+.third-img img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.third-block {
+  width: 300px;
+  height: 380px;
+  margin-top: -5px;
+  background: #3f428d;
+}
+
+.textAlumni {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.namaAlumni {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.tahunAlumni {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.pekerjaanAlumni {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffd600;
+}
+
+.testiAlumni {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  text-indent: 35px;
+}
+
+#ajakan-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: #3f428d;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+#ajakan-top-3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: #ffd600;
+}
+
+.ajakan-text-3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+#ajakan-text-3-IT {
+  font-weight: 700;
+}
+
+#ajakan-text-3-masa {
+  font-weight: 700;
+  color: #ffd600;
+}
+
+/* fourth-section */
+#Fourth-section {
+  width: 100%;
+  height: 40vh;
+  background-color: #3f428d;
+}
+
+.hamburger {
+  display: none;
+}
+.footer-main{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+.footer{
+  color: #ffffff;
+}
+.footer h1{
+  font-family: Goldman;
+  font-size: 4vw;
+}
+.footer h5{
+  
+  font-weight: normal;
+  font-size: 1.8vw;
+}
+.footer h4{
+  
+  font-weight: normal;
+  font-size: 1.8vw;
+}
+#imgs{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (width<=988px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  /* navbar */
+  .bar-extra {
+    display: none;
+  }
+  body section {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger img {
+    width: 50px;
+    object-fit: contain;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 90px;
+    background-color: hsl(0, 0%, 0%, 0.8);
+    right: 0;
+  }
+  #First-section {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  /* main */
+  .first-main h1 {
+    font-size: 7vw;
+  }
+  .second-main {
+    padding: 50px;
+  }
+  .second-main p {
+    font-size: 17px;
+  }
+
+  .third-main {
+    padding: 40px;
+  }
+  .third-desc p {
+    font-size: 17px;
+  }
+  .third-content {
+    flex-direction: column;
+  }
+  .third-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer h1{
+    font-size: 40px;
+}
+  .footer h5{
+      font-size: 20px;
+  }
+  .footer h4{
+      font-size: 20px;
+  }
+}
+
+@media (width<=650px) {
+  body section {
+    width: 100%;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 90px;
+    background-color: hsl(0, 0%, 0%, 0.8);
+    right: 0;
+  }
+  .first-main h1 {
+    font-size: min(40px, 8vw);
+  }
+  .third-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-img img {
+    width: 200px;
+    object-fit: contain;
+  }
+  .third-block {
+    margin-top: -50px;
+    width: 250px;
+  }
+  #ajakan-3 {
+    padding: 10px;
+  }
+  
+  #ajakan-top-3 {
+    font-size: 32px;
+    line-height: 96px;
+  }
+  
+  .ajakan-text-3 {
+    font-size: 16px;
+    line-height: 60px;
+  }
+}
+
+@media (width<=450px){
+  .footer h1{
+    font-size: 28px;
+  }
+  .footer h5{
+      font-size: 12px;
+  }
+  .footer h4{
+      font-size: 12px;
+  }
+}
